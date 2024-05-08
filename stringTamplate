@@ -1,0 +1,8 @@
+// kode string tamplate menggunakan backtic
+
+const namaDepan = `aldi tahmer`;
+const namaTengah = `jihan`;
+const namaBelakang = `sumire`;
+const tamplate = `nama asaya adalah: ${namaDepan} ${namaBelakang}`;
+
+console.info(tamplate, namaBelakang, namaBelakang, namaTengah);
