@@ -31,3 +31,10 @@ const orang = {
 // menampilakn outputnya
 console.table(orang);
 console.log(`panjang array nya adalah: ${orang.length}`); // outputnya undefine karena indexnya bukan type data number
+
+// menamilkan object dg mengambil variable
+console.log(`\n`);
+console.log(`nama : ${orang.nama}`);
+console.log(`nim : ${orang.nim}`);
+console.log(`alamat : ${orang.alamat}`);
+console.log(`jenkel : ${orang.jenkel}`);
